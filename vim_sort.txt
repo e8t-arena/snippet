@@ -1,0 +1,17 @@
+gem 'bourbon'
+gem 'clearance', '1.0.0.rc4'
+gem 'neat'
+gem 'pg'
+gem 'rails', '3.2.11'
+gem 'simple_form'
+gem 'stripe'
+gem 'strong_parameters'
+gem 'thin'
+
+select range
+:sort
+
+https://thoughtbot.com/blog/sort-lines-alphabetically-in-vim
+
+more sort
+https://webdevetc.com/blog/sort-text-in-vim
