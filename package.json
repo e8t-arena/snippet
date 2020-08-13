@@ -1,0 +1,10 @@
+{
+  "name": "snippet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^11.5.1",
+    "jsdom": "^16.3.0"
+  }
+}
