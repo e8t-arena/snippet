@@ -17,7 +17,7 @@ done
 
 echo $not_paths
 
-find . -type f -perm +111 $not_paths >> .gitignore
+find . -type f -perm +111 $not_paths | awk '{print substr($0,3,length($0))}' >> .gitignore
 # awk '!NF || !seen[$0]++' .gitignore
 result=$(awk '!NF || !seen[$0]++' .gitignore)
 echo "$result" > .gitignore

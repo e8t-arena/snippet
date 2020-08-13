@@ -33,4 +33,6 @@ yarn-error.log*
 in
 out
 tmp
-./glfw/try_glfw
+glfw/try_glfw
+glfw/try_glfw2
+glfw/try_glfw1
